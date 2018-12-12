@@ -32,7 +32,7 @@ You can also access the REST endpoint from the command line:
 
 The command will produce the following output:
 
-----
+```json
 {
   "status" : "OK",
   "results" : [ {
@@ -85,7 +85,7 @@ The command will produce the following output:
     "partialMatch" : false
   } ]
 }
-----
+```
 
 The Swagger documentation is located at: http://localhost:8080/camel/api-doc and can be retrieved with the following command:
 
